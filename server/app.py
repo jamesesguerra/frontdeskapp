@@ -44,21 +44,21 @@ def register_box():
 
         if new_box["size"] == "small":
             # small max 46 boxes
-            if len(boxes["small"]) <= 46:
+            if len(boxes["small"]) < 46:
                 boxes["small"].append(new_box)
             else:
                 return "Small box cannot be accepted (not enough space)", 400
         
         elif new_box["size"] == "medium":
             # medium max 14 boxes
-            if len(boxes["medium"]) <= 14:
+            if len(boxes["medium"]) < 14:
                 boxes["medium"].append(new_box)
             else:
                 return "Medium box cannot be accepted (not enough space)", 400
 
         elif new_box["size"] == "large":
             # large max 12 boxes
-            if len(boxes["large"]) <= 12:
+            if len(boxes["large"]) < 12:
                 boxes["large"].append(new_box)
             else:
                 return "Large box cannot be accepted (not enough space)", 400
