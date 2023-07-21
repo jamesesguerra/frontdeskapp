@@ -15,7 +15,7 @@ cd frontdeskapp/
 
 ## Project Setup
 ### Client 
-Install packages
+Install dependencies
 ```sh
 cd client && npm i
 ```
