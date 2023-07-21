@@ -72,7 +72,6 @@ def register_box():
 
 @app.route("/boxes", methods=["PUT"])
 def retrieve_box():
-    print("hello")
     with open("./boxes.json", "r+") as file:
         boxes = json.load(file)
         retrieved_box = request.get_json()
