@@ -66,12 +66,12 @@ npm start
 ## API
 1. **customers**
 - GET `/customers` - returns all the customers
-- POST `/customers` - creates a new customer
+- POST `/customers` - creates a new customer; accepts JSON in request body
 
 2. **boxes**
 - GET `/boxes` - returns boxes of small, medium, and large sizes, including retrieved boxes
-- POST `/boxes` - registers a new box if there is available space
-- PUT `/boxes` - retrieves a box, removing it from stored boxes and adding it to the list of retrieved boxes
+- POST `/boxes` - registers a new box if there is available space; accepts JSON in request body
+- PUT `/boxes` - retrieves a box, removing it from stored boxes and adding it to the list of retrieved boxes; accepts JSON in request body
 
 
 ## JSON DB
