@@ -60,6 +60,8 @@ npm start
 ```
 
 4. View the project at http://localhost:3000/
+<img width="1387" alt="image" src="https://github.com/jamesesguerra/frontdeskapp/assets/68677613/542190be-1a39-4889-a64b-b5bbff26ffa1">
+
 
 ## API
 1. **customers**
