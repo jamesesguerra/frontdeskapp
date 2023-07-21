@@ -75,5 +75,5 @@ npm start
 
 
 ## JSON DB
-1. `customers.json` - file which the server writes to and reads from to store and retrieve information about the customers
-2. `boxes.json` - file which the server writes to and reads from to store and retrieve information about boxes
+1. `server/customers.json` - file which the server writes to and reads from to store and retrieve information about the customers
+2. `server/boxes.json` - file which the server writes to and reads from to store and retrieve information about boxes
