@@ -5,12 +5,12 @@
 git clone git@github.com:jamesesguerra/frontdeskapp.git
 ```
 
-Cd into project folder
+Change directory into project folder
 ```sh
 cd frontdeskapp/
 ```
 
-**NOTE:** The app runs on React and Flask, so make sure Node/npm and Python is installed.
+**NOTE:** The app runs on React and Flask, so Node/npm and Python need to be installed first.
 
 
 ## Project Setup
@@ -21,7 +21,7 @@ cd client && npm i
 ```
 
 ### Server 
-Cd into server folder
+Change directory into server folder
 ```sh
 cd ../server
 ```
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-2. Open a second terminal and cd into the `frontdeskapp/client` folder.
+2. Open a second terminal and change directory into the `frontdeskapp/client` folder.
 
 3. Start the client server
 ```sh
