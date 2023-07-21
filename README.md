@@ -1,6 +1,6 @@
 # FrontDeskApp
 
-Repository Setup
+## Repository Setup
 ```sh
 git clone git@github.com:jamesesguerra/frontdeskapp.git
 ```
@@ -10,7 +10,10 @@ Cd into project folder
 cd frontdeskapp/
 ```
 
-## Setup
+**NOTE:** The app runs on React and Flask, so make sure Node/npm and Python is installed.
+
+
+## Project Setup
 ## Client 
 Install packages
 ```sh
@@ -45,14 +48,15 @@ pip install -r requirements.txt
 ## Usage
 1. Start the server
 ```sh
-# /server 
+# still in /server folder 
 python app.py
 ```
 
-2. Start the client server
+2. Open a second terminal and cd into the `frontdeskapp/client` folder.
+
+3. Start the client server
 ```sh
-cd ../client
 npm start
 ```
 
-3. View the project at http://localhost:3000/
+4. View the project at http://localhost:3000/
